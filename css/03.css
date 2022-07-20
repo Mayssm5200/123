@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.obox{
+	width: 1300px;
+	height: 560px;
+	background-color: red;
+	margin: 120px 120px 80px;
+}
+.obox h3{
+	color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+}
+.line3{
+	width: 460px;
+	border-top: solid 6px #FFFFFF;
+	margin: 8px auto 0px;
+}
+.line4{
+	width: 460px;
+	border-top: solid 6px #FFFFFF;
+	margin: 250px auto 0px;
+}
+.obox p1{
+	margin: 180px auto 0px;
+	font-size: 50px;
+	text-align: center;
+}

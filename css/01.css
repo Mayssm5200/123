@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	display: block;/*图片要变成块元素才可以进行auto转换*/
+	width: 480px;
+	margin: 80px auto 0px;/*上，左右，下*/
+}
+.line1{
+	width: 450px;
+	border-top: solid 4px #999999;
+	margin: 3px auto 0px;
+	background: linear-gradient(to right,#ffffff,#999999);
+}
+.btn1{
+	width: 150px;
+	height: 60px;
+	background-color: #000000;
+	text-align: center;
+	line-height:60px;
+	margin: 60px auto 0px;
+	color: #ffffff;/*字体颜色*/
+	border-radius: 35px;/*元素圆角，将直角变成圆角*/
+}
+.btn2{
+	width: 150px;
+	height: 60px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 60px;
+	margin: 40px auto 0px;
+	color: #ffffff;
+	border-radius: 35px;
+}
+.line2{
+	width: 450px;
+	border-top: solid 4px #999999;
+	margin: 150px auto 0px;
+	background: linear-gradient(to right,#ffffff,#999999);
+}

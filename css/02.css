@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	position: absolute;/*绝对定位,参照物是具有定位属性的包含块，元素脱离文档流*/
+	top: 40px;
+	left: 40px;
+	font-size: 40px;
+	color: red;
+}
+img{
+	width: 28px;
+	height: 38px;
+	position: absolute;/*绝对定位,参照物是具有定位属性的包含块，元素脱离文档流*/
+	top: 630px;
+	left: 100px;
+}
+.box{
+	height: 665px;
+	border-bottom: solid 10px black;
+}

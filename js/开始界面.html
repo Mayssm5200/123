@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/01.css" />
+	</head>
+	<body>
+		<img src="../img/index.jpg" />
+		<div class="line1"></div>
+		<div class="btn1" >简单模式</div>
+		<div class="btn2">困难模式</div>
+		<div class="line2"></div>
+	</body>
+	<script src="jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		console.log($(".btn1"));
+		$(function(){
+			console.log($(".btn1"));
+			$(".btn1").click(function(){
+				console.log("开始简单模式");
+			})
+		})
+		console.log($(".btn2"));
+		$(function(){
+			console.log($(".btn2"));
+			$(".btn2").click(function(){
+				console.log("开始困难模式");
+			})
+		})
+	</script>
+</html>
